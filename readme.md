@@ -6,5 +6,8 @@
 1. 16位元
 1. NTag215資料格式
 1. 硬體接線
+	* [I2C](https://pinout.xyz)
+	* 按鈕 I0 = 1 , I1 = 0
+	* GND , VCC , SDA , SCL = pin 6 , 4 , 3 , 5 
 1. 讀取 ID
 1. 寫入資料

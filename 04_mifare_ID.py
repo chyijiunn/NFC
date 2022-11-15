@@ -2,7 +2,7 @@ from py532lib.mifare import *
 import time
 import binascii
 
-'''這邊跟下面是一樣的
+'''                                             這邊跟下面是一樣的
 while True:
     scanID = Mifare().scan_field()
     ID = binascii.hexlify(scanID)

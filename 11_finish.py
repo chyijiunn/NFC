@@ -2,11 +2,9 @@ from py532lib.mifare import *
 import time , binascii
 import hashlib
 
-card = Mifare()
 i = 0
-
 while True:
-    uid = card.scan_field()
+    uid = Mifare().scan_field()
     if uid:
         ID = binascii.hexlify(uid)
         hs_ori = hashlib.md5(ID)

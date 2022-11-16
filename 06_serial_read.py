@@ -9,7 +9,7 @@ if uid:
         for block in range(4):  #讀 block = 0 ~ 3 的位置
             address = Mifare().mifare_address(section,block)
             data = Mifare().mifare_read(address)
-            print(i,'(',section,block,'):',bytes(data))
+            print(i,'(',section,',',block,'):',bytes(data))
             i += 1              #讀取第幾次-1
         
 

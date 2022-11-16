@@ -6,4 +6,4 @@ i = 0
 if uid:
     ID = binascii.hexlify(uid)
     print('ID:',ID)
-    print(bytes(card.mifare_read(card.mifare_address(1,2))))
+    print(bytes(Mifare().mifare_read(Mifare().mifare_address(1,2))))

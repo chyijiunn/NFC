@@ -1,5 +1,5 @@
 # NFC
-1. 本活動基於 PN532 與raspberry pi 連結後在 [pn532lib](https://github.com/HubCityLabs/py532lib) 套件協助下完成
+1. 本活動基於 PN532 與raspberry pi 連結後在 [py532lib](https://github.com/HubCityLabs/py532lib) 套件協助下完成
 1. 讀取 NTag215 內部資料後，獲取標籤 ID
 1. 針對 ID 進行 MD5 雜湊，使用 [hashlib.md5]
 1. 揭出控制硬體，如 sg90 馬達

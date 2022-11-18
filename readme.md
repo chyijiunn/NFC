@@ -8,7 +8,7 @@
 1. 16位元
 1. NTag215資料格式
 	* 資料格式
-	* 手機讀取、寫入
+	* 手機讀取、寫入:NFC Rewriter ,NFC TagInfo 
 1. 硬體接線
 	* [I2C](https://pinout.xyz) > [圖示](/pics/GPIO.png)
 	* 按鈕 I0 = 1 , I1 = 0 > [圖示](/pics/I0I1.jpg)

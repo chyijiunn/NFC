@@ -1,5 +1,7 @@
 from py532lib.mifare import *
 import time , binascii
+Mifare().SAMconfigure()
+Mifare().set_max_retries(MIFARE_SAFE_RETRIES)
 uid = Mifare().scan_field()
 i = 0
 if uid:

@@ -3,6 +3,9 @@ import time
 import binascii
 import hashlib
 
+Mifare().SAMconfigure()
+Mifare().set_max_retries(MIFARE_SAFE_RETRIES)
+
 i=0
 while True:
     uid = Mifare().scan_field()

@@ -3,6 +3,9 @@ import time
 import binascii
 import hashlib
 
+Mifare().SAMconfigure()
+Mifare().set_max_retries(MIFARE_SAFE_RETRIES)
+
 hs = hashlib.md5(b'ffffffffffffff') #這裡之後就會刪掉，不出示明文標籤
 hs_md5 = hs.hexdigest()
 

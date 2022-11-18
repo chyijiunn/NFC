@@ -9,7 +9,8 @@ while True:
     print('ID:',ID)
     time.sleep(1)
 '''
-
+Mifare().SAMconfigure()
+Mifare().set_max_retries(MIFARE_SAFE_RETRIES)
 while True:
     ID = binascii.hexlify(Mifare().scan_field())#只是兩行寫成一行而已
     print('ID:',ID)
